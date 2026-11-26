@@ -1,0 +1,16 @@
+{
+  "name": "radar-de-sinais",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Radar de Sinais: dois robôs educacionais de sinais rodando na nuvem, com app instalável e notificações push.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "web-push": "3.6.7"
+  }
+}
